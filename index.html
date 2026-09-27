@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elite Sênior Home Care — Cuidado domiciliar humanizado em São Paulo</title>
+<meta name="description" content="Cuidados domiciliares, enfermagem e acompanhamento de idosos em São Paulo, Guarulhos e região. Atendimento humanizado, profissionais qualificados e avaliação gratuita.">
+<meta name="theme-color" content="#0E6470">
+
+<meta property="og:title" content="Elite Sênior Home Care">
+<meta property="og:description" content="Cuidado, segurança e tranquilidade para quem você ama.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/logo.png">
+
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#inicio">Ir para o conteúdo</a>
+
+<!-- ============ linha do cuidado (fundo, desenhada no scroll) ============ -->
+<svg class="care-line" viewBox="0 0 120 2400" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+  <path id="careLinePath"
+        d="M60,0 C10,180 110,320 60,500 C10,680 110,820 60,1000 C10,1180 110,1320 60,1500 C10,1680 110,1820 60,2000 C20,2160 90,2280 60,2400"
+        fill="none" stroke="#C9A24B" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
+
+<!-- ============ TOPO ============ -->
+<div id="preloader" class="preloader" aria-hidden="true">
+  <img src="assets/logo.png" alt="" class="preloader__logo">
+  <span class="preloader__word">ELITE SÊNIOR</span>
+</div>
+
+<header class="topbar" id="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="#inicio" aria-label="Elite Sênior Home Care, ir para o início">
+      <img src="assets/logo-white.png" alt="" width="52" height="26">
+      <span class="brand__text">
+        <strong>Elite Sênior</strong>
+        <em>Home Care</em>
+      </span>
+    </a>
+
+    <div class="topbar-links" id="topbarLinks">
+      <a href="#inicio">Início</a>
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#planos">Planos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#blog">Dicas de saúde</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#trabalhe">Trabalhe conosco</a>
+    </div>
+
+    <a class="btn btn--gold topbar__cta" href="#contato">Agendar uma visita</a>
+
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="topbar__progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<!-- O menu completo fica FORA da barra de propósito: a barra ganha um -->
+<!-- desfoque (backdrop-filter) ao rolar a página, e qualquer elemento -->
+<!-- fixed dentro dela herda esse "recorte" em vez de ocupar a tela toda. -->
+<nav class="nav" id="nav" aria-label="Menu completo">
+  <button class="nav__close" id="navClose" aria-label="Fechar menu">
+    <span></span><span></span>
+  </button>
+  <ul>
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#quem-somos">Quem somos</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#blog">Dicas de saúde</a></li>
+    <li><a href="#faq">Dúvidas</a></li>
+    <li><a href="#trabalhe">Trabalhe conosco</a></li>
+  </ul>
+  <a class="btn nav__cta" href="#contato">Agendar uma visita</a>
+</nav>
+
+<main>
+
+<!-- ============ INÍCIO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__carousel" id="heroCarousel" aria-hidden="true">
+    <div class="hero__slide is-active" style="background-image:url('assets/hero-1.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('assets/hero-2.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('assets/hero-3.jpg')"></div>
+    <div class="hero__scrim"></div>
+  </div>
+
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="hero__kicker">Atendimento domiciliar em São Paulo e região</p>
+      <h1>Cuidado, segurança e<br>tranquilidade para<br>quem você ama.</h1>
+      <p class="hero__lead">
+        A Elite Sênior Home Care oferece atendimento domiciliar humanizado e personalizado, proporcionando mais segurança, conforto e qualidade de vida para idosos e suas famílias.
+      </p>
+      <p class="hero__lead">
+        Contamos com profissionais qualificados para oferecer suporte de acordo com as necessidades de cada pessoa, respeitando sua rotina, individualidade e bem-estar.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--gold btn--lg" href="#contato">Agendar uma avaliação gratuita</a>
+        <a class="btn btn--ghost btn--lg btn--ghost-light" href="#servicos">Conheça nossos serviços</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__dots" id="heroDots" aria-hidden="true"></div>
+
+  <a class="hero__scroll" href="#quem-somos" aria-label="Descer para Quem somos"><span></span></a>
+</section>
+
+<!-- ============ FAIXA DE CONFIANÇA ============ -->
+<section class="trustbar">
+  <div class="wrap trustbar__inner">
+    <div class="trustbar__item">
+      <span class="trustbar__dot"></span>
+      <span>Atendimento personalizado</span>
+    </div>
+    <div class="trustbar__item">
+      <span class="trustbar__dot"></span>
+      <span>Profissionais qualificados</span>
+    </div>
+    <div class="trustbar__item">
+      <span class="trustbar__dot"></span>
+      <span>Responsável Técnico de Enfermagem</span>
+    </div>
+    <div class="trustbar__item">
+      <span class="trustbar__dot"></span>
+      <span>Avaliação gratuita</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUEM SOMOS ============ -->
+<section class="section" id="quem-somos">
+  <div class="wrap about">
+    <div class="about__intro reveal">
+      <h2>Cuidar é estar presente em todos os momentos</h2>
+      <p class="lead">
+        A Elite Sênior Home Care nasceu com o propósito de oferecer um cuidado domiciliar humanizado, seguro e de confiança.
+      </p>
+      <p class="lead">
+        Entendemos que cada pessoa possui uma história, uma rotina e necessidades diferentes. Por isso, buscamos oferecer um atendimento personalizado, respeitando a individualidade de cada paciente e proporcionando mais tranquilidade para toda a família.
+      </p>
+      <p class="lead">
+        Nosso trabalho vai além do acompanhamento diário. Buscamos construir uma relação baseada em confiança, respeito, responsabilidade e carinho, oferecendo suporte às famílias que precisam de auxílio no cuidado de quem amam.
+      </p>
+    </div>
+
+    <div class="pillars">
+      <article class="pillar reveal">
+        <h3>Missão</h3>
+        <p>Oferecer cuidado domiciliar humanizado e personalizado, proporcionando segurança, conforto, respeito e qualidade de vida aos nossos pacientes e tranquilidade às suas famílias.</p>
+      </article>
+      <article class="pillar reveal">
+        <h3>Visão</h3>
+        <p>Ser reconhecida pela excelência e confiança na prestação de serviços de cuidado domiciliar, tornando-se referência em atendimento humanizado à pessoa idosa.</p>
+      </article>
+      <article class="pillar reveal">
+        <h3>Valores</h3>
+        <p>Humanização · Respeito · Segurança · Ética · Confiança · Responsabilidade · Excelência</p>
+      </article>
+    </div>
+
+    <h3 class="team__title reveal">Quem está por trás do cuidado</h3>
+    <div class="team team--pair team--featured">
+      <figure class="member member--featured reveal">
+        <div class="member__photo">
+          <img src="assets/team-1.jpg" alt="Retrato de Jane Carolina">
+        </div>
+        <figcaption>
+          <b>Jane Carolina</b>
+          <span class="member__role">Gestora <i>|</i> +8 anos de experiência</span>
+          <p class="member__bio">Formada em Administração, Jane Carolina iniciou sua trajetória profissional como cuidadora. Sua experiência prática, aliada à gestão, contribui para compreender de perto as necessidades dos pacientes, familiares e profissionais envolvidos no cuidado.</p>
+        </figcaption>
+      </figure>
+      <figure class="member member--featured reveal">
+        <div class="member__photo">
+          <img src="assets/team-2.jpg" alt="Retrato de Dime">
+        </div>
+        <figcaption>
+          <b>Dime</b>
+          <span class="member__role">Enfermeiro Responsável Técnico <i>|</i> +12 anos de experiência</span>
+          <p class="member__bio">Enfermeiro, com ampla experiência na área, atua como Responsável Técnico da Elite Sênior Home Care, contribuindo para a qualidade, segurança e acompanhamento dos serviços prestados. COREN-SP 001635675.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVIÇOS ============ -->
+<section class="section section--tint" id="servicos">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Cuidado personalizado para cada necessidade</h2>
+      <p class="lead">Cada pessoa possui necessidades diferentes. Por isso, a Elite Sênior oferece serviços que podem ser personalizados de acordo com a rotina e o nível de assistência necessário.</p>
+    </div>
+
+    <div class="services">
+      <article class="service reveal" tabindex="0">
+        <span class="service__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 40V22l16-12 16 12v18H28V30h-8v10z"/><path d="M24 24v-6M21 21h6" class="accent"/></svg>
+        </span>
+        <h3>Cuidados domiciliares</h3>
+        <p>Assistência e acompanhamento no conforto do lar, proporcionando segurança, companhia e apoio nas atividades da rotina diária.</p>
+        <ul>
+          <li>Auxílio na higiene pessoal</li>
+          <li>Auxílio na alimentação</li>
+          <li>Apoio na rotina de medicação conforme orientação</li>
+          <li>Troca de fraldas</li>
+          <li>Companhia e acompanhamento</li>
+          <li>Apoio na mobilidade</li>
+          <li>Organização da rotina do paciente</li>
+          <li>Acompanhamento durante o dia ou à noite</li>
+        </ul>
+      </article>
+
+      <article class="service reveal" tabindex="0">
+        <span class="service__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M16 6h16v10H16z"/><path d="M10 16h28v26H10z"/><path d="M24 24v10M19 29h10" class="accent"/></svg>
+        </span>
+        <h3>Enfermagem domiciliar</h3>
+        <p>Atendimento realizado por profissionais de enfermagem de acordo com as necessidades do paciente e as orientações relacionadas ao seu cuidado.</p>
+        <ul>
+          <li>Acompanhamento de sinais vitais</li>
+          <li>Curativos</li>
+          <li>Cuidados com sondas</li>
+          <li>Administração de medicamentos conforme prescrição</li>
+          <li>Outros procedimentos de enfermagem de acordo com a necessidade e avaliação do paciente</li>
+        </ul>
+      </article>
+
+      <article class="service reveal" tabindex="0">
+        <span class="service__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><circle cx="18" cy="16" r="6"/><circle cx="33" cy="19" r="5"/><path d="M6 40c0-7 5-12 12-12s12 5 12 12M30 40c0-6 4-10 9-10" class="accent"/></svg>
+        </span>
+        <h3>Acompanhamento de idosos</h3>
+        <p>Indicado para famílias que precisam de alguém de confiança para acompanhar o idoso durante parte do dia, consultas, exames, internações, compromissos ou outras atividades da rotina.</p>
+        <ul>
+          <li>Consultas médicas</li>
+          <li>Exames</li>
+          <li>Internações e ambiente hospitalar</li>
+          <li>Caminhadas e atividades externas</li>
+          <li>Compromissos pessoais</li>
+          <li>Atividades sociais</li>
+        </ul>
+      </article>
+
+      <article class="service reveal" tabindex="0">
+        <span class="service__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M10 34c6-18 22-18 28 0"/><path d="M24 34v8M16 42h16" class="accent"/><circle cx="24" cy="20" r="4"/></svg>
+        </span>
+        <h3>Atendimento pós-cirúrgico</h3>
+        <p>Suporte durante o período de recuperação após procedimentos cirúrgicos, proporcionando mais segurança e tranquilidade ao paciente e à família. O atendimento é personalizado conforme as necessidades identificadas durante a avaliação.</p>
+      </article>
+
+      <article class="service service--cta reveal">
+        <h3>Precisa de ajuda para identificar o atendimento adequado?</h3>
+        <p>Entre em contato com nossa equipe. Realizamos uma avaliação gratuita e sem compromisso para entender as necessidades do paciente e apresentar as possibilidades de atendimento.</p>
+        <a class="btn btn--gold" href="#contato">Solicitar avaliação gratuita</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section section--tint" id="como-funciona">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Como funciona o atendimento</h2>
+      <p class="lead">Cuidar de quem você ama pode gerar muitas dúvidas. Por isso, buscamos tornar o processo simples e acolhedor desde o primeiro contato.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal">
+        <span class="step__num">1</span>
+        <h3>Converse com nossa equipe</h3>
+        <p>Conte um pouco sobre a necessidade do paciente e a rotina da família.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__num">2</span>
+        <h3>Avaliação gratuita</h3>
+        <p>Nossa equipe busca compreender as necessidades do paciente, o nível de assistência necessário e as particularidades da rotina.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__num">3</span>
+        <h3>Atendimento personalizado</h3>
+        <p>A partir da avaliação, apresentamos as possibilidades de atendimento e elaboramos um orçamento de acordo com a necessidade da família.</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__num">4</span>
+        <h3>Início do cuidado</h3>
+        <p>Após a contratação, organizamos o atendimento e acompanhamos a adaptação do paciente, da família e dos profissionais envolvidos.</p>
+      </div>
+    </div>
+
+    <div class="steps__cta reveal">
+      <a class="btn btn--gold" href="#contato">Solicitar avaliação gratuita</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANOS ============ -->
+<section class="section" id="planos">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Um cuidado pensado para cada família</h2>
+      <p class="lead">Sabemos que cada família possui uma rotina e uma necessidade diferente. Por isso, trabalhamos com planos e pacotes personalizados, definidos de acordo com o tipo de atendimento, período e necessidades do paciente.</p>
+      <p class="lead">Entre em contato conosco para realizar uma avaliação gratuita. A partir dela, nossa equipe poderá apresentar as opções de atendimento e elaborar um orçamento personalizado.</p>
+    </div>
+
+    <div class="plans" id="plans">
+      <article class="plan reveal">
+        <h3>Essencial</h3>
+        <p class="plan__who">Companhia e apoio nas atividades da rotina, proporcionando segurança, atenção e auxílio nas necessidades do dia a dia.</p>
+        <a class="btn btn--outline" href="#contato">Quero saber mais</a>
+      </article>
+
+      <article class="plan plan--featured reveal">
+        <h3>Completo</h3>
+        <p class="plan__who">Atendimento para situações que necessitam de acompanhamento mais próximo, podendo incluir suporte de profissionais de enfermagem conforme as necessidades do paciente.</p>
+        <a class="btn btn--gold" href="#contato">Quero saber mais</a>
+      </article>
+
+      <article class="plan reveal">
+        <h3>Integral</h3>
+        <p class="plan__who">Indicado para pacientes com maior nível de dependência ou que necessitam de cuidados mais intensivos, incluindo situações de recuperação pós-cirúrgica e outras necessidades identificadas durante a avaliação.</p>
+        <a class="btn btn--outline" href="#contato">Quero saber mais</a>
+      </article>
+    </div>
+
+    <div class="plans__help reveal">
+      <h3>Não sabe qual opção é mais adequada?</h3>
+      <p>Nossa equipe realiza uma avaliação gratuita para compreender as necessidades do paciente e da família e apresentar as possibilidades de atendimento.</p>
+      <a class="btn btn--gold" href="#contato">Solicitar avaliação gratuita</a>
+    </div>
+
+    <p class="plans__note reveal">Avaliação gratuita e sem compromisso. Emitimos nota fiscal e recibo.</p>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="section section--dark" id="depoimentos">
+  <div class="wrap">
+    <div class="section__head section__head--light reveal">
+      <h2>O que as famílias dizem sobre nosso cuidado</h2>
+    </div>
+
+    <div class="quotes-empty reveal">
+      <p>Em breve, você poderá conferir aqui os relatos de famílias atendidas pela Elite Sênior Home Care.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="section" id="blog">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Informação também é uma forma de cuidar</h2>
+      <p class="lead">Nesta seção compartilhamos conteúdos informativos sobre cuidados com idosos, segurança, bem-estar e qualidade de vida. Nosso objetivo é ajudar familiares e cuidadores a compreender melhor situações comuns da rotina de cuidado.</p>
+    </div>
+
+    <div class="posts" id="posts">
+      <article class="post reveal">
+        <img src="assets/post-1.jpg" alt="">
+        <div class="post__body">
+          <span class="post__meta">Prevenção</span>
+          <h3>Sete mudanças na casa que reduzem quedas de idosos</h3>
+          <p>O banheiro e outras áreas da casa merecem atenção especial na prevenção de quedas. Conheça alguns cuidados que podem tornar o ambiente mais seguro para o idoso.</p>
+          <div class="post__full">
+            <div class="post__full-inner">
+            <p>Quedas estão entre os principais motivos de internação e perda de autonomia em idosos, mas boa parte delas pode ser evitada com ajustes simples no ambiente da casa.</p>
+            <p>Algumas mudanças que costumam fazer diferença:</p>
+            <ul>
+              <li>Instalar barras de apoio no banheiro, perto do vaso e do box</li>
+              <li>Usar tapetes antiderrapantes ou removê-los das áreas de passagem</li>
+              <li>Melhorar a iluminação de corredores, escadas e do trajeto até o banheiro à noite</li>
+              <li>Organizar fios e objetos que fiquem no caminho</li>
+              <li>Preferir cadeiras e camas com altura que facilite sentar e levantar</li>
+              <li>Colocar antiderrapante dentro do box</li>
+              <li>Manter objetos de uso frequente em altura acessível, sem precisar de escada ou banquinho</li>
+            </ul>
+            <p>Cada casa tem particularidades, por isso uma avaliação presencial do ambiente costuma trazer recomendações mais específicas para a rotina de cada família.</p>
+            </div>
+          </div>
+          <button class="post__toggle" aria-expanded="false">Ler artigo completo</button>
+        </div>
+      </article>
+      <article class="post reveal">
+        <img src="assets/post-2.jpg" alt="">
+        <div class="post__body">
+          <span class="post__meta">Alzheimer</span>
+          <h3>Como responder quando ele repete a mesma pergunta</h3>
+          <p>Algumas atitudes podem tornar esses momentos mais tranquilos para o idoso e também para quem cuida.</p>
+          <div class="post__full">
+            <div class="post__full-inner">
+            <p>Para quem convive com alguém com Alzheimer ou outras formas de demência, ouvir a mesma pergunta várias vezes no mesmo dia é uma situação comum — e desgastante quando não se sabe como lidar com ela.</p>
+            <p>Alguns caminhos que costumam ajudar:</p>
+            <ul>
+              <li>Responder com calma, como se fosse a primeira vez, evitando corrigir ou lembrar que a pergunta já foi feita</li>
+              <li>Observar se a pergunta repetida indica uma necessidade por trás dela, como fome, sono ou ansiedade</li>
+              <li>Usar recursos visuais, como um calendário ou bilhetes, para questões relacionadas a datas e horários</li>
+              <li>Desviar a atenção para uma atividade ou assunto agradável, sem confrontar</li>
+            </ul>
+            <p>Corrigir ou insistir que a informação já foi dada tende a gerar frustração para os dois lados. O objetivo não é convencer, mas acolher o momento com tranquilidade.</p>
+            </div>
+          </div>
+          <button class="post__toggle" aria-expanded="false">Ler artigo completo</button>
+        </div>
+      </article>
+      <article class="post reveal">
+        <img src="assets/post-3.jpg" alt="">
+        <div class="post__body">
+          <span class="post__meta">Nutrição</span>
+          <h3>Quando o idoso perde a vontade de comer</h3>
+          <p>Entenda alguns fatores que podem estar relacionados à perda de apetite e saiba quando é importante buscar orientação profissional.</p>
+          <div class="post__full">
+            <div class="post__full-inner">
+            <p>A perda de apetite no idoso pode ter causas bem diferentes entre si, e entender a origem ajuda a saber que tipo de apoio buscar.</p>
+            <p>Alguns pontos que vale observar:</p>
+            <ul>
+              <li>Efeitos colaterais de medicações, que podem alterar paladar ou causar náusea</li>
+              <li>Dificuldade para mastigar ou engolir, inclusive por questões odontológicas</li>
+              <li>Mudanças de humor, isolamento ou sinais de tristeza persistente</li>
+              <li>Redução natural do olfato e paladar, comum com o avanço da idade</li>
+            </ul>
+            <p>Em casa, pode ajudar oferecer refeições menores e mais frequentes, priorizar os alimentos preferidos da pessoa e manter os horários de refeição como um momento tranquilo, sem pressão. Quando a perda de apetite persiste por vários dias ou vem acompanhada de perda de peso, vale conversar com o médico responsável para investigar a causa.</p>
+            </div>
+          </div>
+          <button class="post__toggle" aria-expanded="false">Ler artigo completo</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ONDE ATENDEMOS ============ -->
+<section class="section" id="onde-atendemos">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Onde atendemos</h2>
+      <p class="lead">Atendimento domiciliar em São Paulo e região.</p>
+    </div>
+
+    <div class="coverage reveal">
+      <p class="coverage__intro">A Elite Sênior Home Care oferece atendimento domiciliar em diferentes localidades de São Paulo e região.</p>
+
+      <ul class="coverage__tags">
+        <li>São Paulo</li>
+        <li>Guarulhos</li>
+        <li>Arujá</li>
+        <li>Itaquaquecetuba e região</li>
+      </ul>
+
+      <p class="coverage__note">Na cidade de São Paulo, consulte nossa equipe para verificar a disponibilidade de atendimento em seu bairro.</p>
+
+      <div class="coverage__cta">
+        <div>
+          <b>Precisa saber se atendemos na sua localização?</b>
+          <span>Entre em contato com nossa equipe pelo WhatsApp.</span>
+        </div>
+        <a class="btn btn--gold" href="https://wa.me/5511965127141?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20se%20a%20Elite%20S%C3%AAnior%20atende%20na%20minha%20regi%C3%A3o." target="_blank" rel="noopener">Consultar disponibilidade</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--tint" id="faq">
+  <div class="wrap faq">
+    <div class="section__head reveal">
+      <h2>Perguntas frequentes</h2>
+    </div>
+
+    <div class="accordion" id="accordion">
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Quais regiões vocês atendem?</button>
+        <div class="acc__a"><p>Atendemos em São Paulo, incluindo Bela Vista, Itaim Bibi, Higienópolis e Tatuapé, além de Guarulhos, Arujá, Itaquaquecetuba e região. Para consultar a disponibilidade de atendimento em sua localização, entre em contato com nossa equipe.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Vocês trabalham com planos de saúde?</button>
+        <div class="acc__a"><p>Não. Atualmente, a Elite Sênior Home Care não trabalha com planos de saúde. Para conhecer nossos planos, pacotes e formas de contratação, entre em contato com nossa equipe.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Existe contrato de fidelidade?</button>
+        <div class="acc__a"><p>Trabalhamos com contratos personalizados, de acordo com o plano ou pacote contratado. As condições são apresentadas de forma clara antes da contratação.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">O mesmo profissional atende sempre?</button>
+        <div class="acc__a"><p>Buscamos proporcionar continuidade e segurança no atendimento. A definição dos profissionais e da escala é realizada de acordo com as necessidades do paciente e a disponibilidade da equipe.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">E se a família precisar solicitar a troca do profissional?</button>
+        <div class="acc__a"><p>A família poderá entrar em contato com nossa equipe para conversar sobre o atendimento. Cada situação será avaliada individualmente para buscarmos a melhor solução para o paciente e sua família.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Vocês atendem durante a noite, finais de semana e feriados?</button>
+        <div class="acc__a"><p>Temos opções de atendimento em diferentes períodos e escalas. Consulte nossa equipe para verificar a disponibilidade de acordo com o período e o tipo de atendimento necessário.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Como é definido o atendimento?</button>
+        <div class="acc__a"><p>Primeiro buscamos entender as necessidades do paciente e da família. A partir dessa avaliação, apresentamos as opções de atendimento, plano ou pacote mais adequado para aquela situação.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Como os profissionais são selecionados?</button>
+        <div class="acc__a"><p>Buscamos profissionais qualificados, responsáveis e comprometidos com um atendimento humanizado. A seleção considera experiência profissional, documentação, perfil e compatibilidade com as necessidades do atendimento.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">É possível contratar atendimento apenas por algumas horas?</button>
+        <div class="acc__a"><p>Possuímos diferentes possibilidades de atendimento, de acordo com a necessidade do paciente e da família. Entre em contato conosco para verificarmos a disponibilidade e a modalidade mais adequada para sua situação.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Vocês oferecem atendimento 24 horas?</button>
+        <div class="acc__a"><p>Trabalhamos com diferentes períodos e escalas de atendimento. A disponibilidade é avaliada de acordo com a necessidade do paciente, a localização e o tipo de assistência necessária.</p></div>
+      </div>
+      <div class="acc">
+        <button class="acc__q" aria-expanded="false">Com quanto tempo de antecedência preciso solicitar o atendimento?</button>
+        <div class="acc__a"><p>Recomendamos entrar em contato assim que identificar a necessidade de assistência. O prazo para início do atendimento dependerá da avaliação, localização, período solicitado e disponibilidade de profissionais.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section" id="contato">
+  <div class="wrap contact">
+    <div class="contact__info reveal">
+      <h2>Fale com a Elite Sênior</h2>
+      <p class="lead">Precisa de ajuda para cuidar de alguém especial? Converse com nossa equipe. Estamos à disposição para entender sua necessidade, esclarecer suas dúvidas e apresentar as opções de atendimento.</p>
+
+      <ul class="contact__list">
+        <li>
+          <span>Telefone</span>
+          <a href="tel:+5511965127141">(11) 96512-7141</a>
+        </li>
+        <li>
+          <span>WhatsApp</span>
+          <a href="https://wa.me/5511965127141?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Elite%20S%C3%AAnior%20Home%20Care." target="_blank" rel="noopener">(11) 96512-7141</a>
+        </li>
+        <li>
+          <span>E-mail</span>
+          <a href="mailto:contato@elitehomecare.com.br">contato@elitehomecare.com.br</a>
+        </li>
+        <li>
+          <span>Atendimento</span>
+          <p>São Paulo e região</p>
+        </li>
+      </ul>
+
+      <a class="btn btn--wa btn--lg" href="https://wa.me/5511965127141?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Elite%20S%C3%AAnior%20Home%20Care." target="_blank" rel="noopener">Converse com nossa equipe pelo WhatsApp</a>
+    </div>
+
+    <form class="form reveal" id="form" novalidate>
+      <h3>Agende uma avaliação gratuita</h3>
+      <p class="form__hint">Preencha o formulário ou fale conosco pelo WhatsApp.</p>
+
+      <div class="field">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" required autocomplete="name">
+        <small class="err" data-for="nome"></small>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="tel">Telefone com DDD</label>
+          <input id="tel" name="tel" type="tel" required inputmode="tel" autocomplete="tel" placeholder="(11) 90000-0000">
+          <small class="err" data-for="tel"></small>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+          <small class="err" data-for="email"></small>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="servico">Tipo de atendimento que procura</label>
+        <select id="servico" name="servico" required>
+          <option value="">Escolha uma opção</option>
+          <option>Cuidados domiciliares</option>
+          <option>Enfermagem domiciliar</option>
+          <option>Acompanhamento de idosos</option>
+          <option>Atendimento pós-cirúrgico</option>
+          <option>Ainda não sei — quero orientação</option>
+        </select>
+        <small class="err" data-for="servico"></small>
+      </div>
+
+      <div class="field">
+        <label for="msg">Conte um pouco sobre a situação <i>(opcional)</i></label>
+        <textarea id="msg" name="msg" rows="4" placeholder="Idade, se anda sozinho, se usa medicação contínua, horários que precisa de apoio…"></textarea>
+      </div>
+
+      <label class="check">
+        <input type="checkbox" id="lgpd" required>
+        <span>Autorizo o contato da Elite Sênior Home Care sobre esta solicitação.</span>
+      </label>
+      <small class="err" data-for="lgpd"></small>
+
+      <button class="btn btn--gold btn--block btn--lg" type="submit">Enviar solicitação</button>
+      <p class="form__ok" id="formOk" role="status" hidden>
+        Abrimos o WhatsApp com sua solicitação preenchida — é só confirmar o envio por lá.
+        Se não abriu automaticamente, <a id="formOkLink" href="https://wa.me/5511965127141" target="_blank" rel="noopener">toque aqui</a>.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ TRABALHE CONOSCO ============ -->
+<section class="section section--work" id="trabalhe">
+  <div class="wrap work">
+    <div class="reveal">
+      <h2>Faça parte da equipe Elite Sênior</h2>
+      <p class="lead">Estamos sempre em busca de profissionais qualificados, responsáveis e comprometidos para fazer parte da nossa equipe de profissionais.</p>
+
+      <h4 class="work__label">Buscamos</h4>
+      <ul class="work__list">
+        <li>Cuidadores de idosos</li>
+        <li>Técnicos de Enfermagem</li>
+        <li>Enfermeiros</li>
+        <li>Fisioterapeutas</li>
+      </ul>
+
+      <h4 class="work__label">Valorizamos</h4>
+      <ul class="work__list">
+        <li>Experiência e responsabilidade</li>
+        <li>Ética, empatia e comprometimento</li>
+        <li>Documentação profissional em dia</li>
+        <li>Conhecimento em primeiros socorros</li>
+        <li>Disponibilidade para plantões de 12h e 24h</li>
+      </ul>
+    </div>
+    <div class="work__card reveal">
+      <h3>Quer fazer parte da nossa equipe?</h3>
+      <p>Envie seu currículo e seus dados profissionais para nossa equipe de seleção.</p>
+      <a class="btn btn--gold" href="mailto:rh@elitehomecare.com.br?subject=Candidatura%20-%20Elite%20S%C3%AAnior%20Home%20Care">Enviar currículo por e-mail</a>
+      <a class="btn btn--outline btn--light" href="https://wa.me/5511965127141?text=Ol%C3%A1%2C%20quero%20me%20candidatar%20a%20uma%20vaga" target="_blank" rel="noopener">Falar com o RH no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <img src="assets/logo-white.png" alt="Elite Sênior Home Care" width="120" height="60">
+      <p>Cuidado domiciliar humanizado, seguro e personalizado.</p>
+    </div>
+    <nav aria-label="Rodapé">
+      <h4>Navegar</h4>
+      <ul>
+        <li><a href="#quem-somos">Quem somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#blog">Dicas de saúde</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="tel:+5511965127141">(11) 96512-7141</a></li>
+        <li><a href="https://wa.me/5511965127141?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Elite%20S%C3%AAnior%20Home%20Care." target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="mailto:contato@elitehomecare.com.br">contato@elitehomecare.com.br</a></li>
+        <li>Atendimento: São Paulo e região</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Responsável Técnico</h4>
+      <ul>
+        <li>Dime – Enfermeiro</li>
+        <li>COREN-SP 001635675</li>
+        <li>CNPJ 66.013.942/0001-12</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bar">
+    <p>© <span id="year">2026</span> Elite Sênior Home Care. Todos os direitos reservados.</p>
+    <p>Este site não substitui avaliação médica.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/5511965127141?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Elite%20S%C3%AAnior%20Home%20Care." target="_blank" rel="noopener" aria-label="Falar com a Elite Sênior pelo WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.1 19.7L3 29l6.5-1.8A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1.1 1.1-3.9-.2-.4A10.6 10.6 0 1 1 16 26.6zm5.9-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-2.6-1.6 9.6 9.6 0 0 1-1.8-2.2c-.2-.3 0-.5.1-.7l.5-.6a2.4 2.4 0 0 0 .3-.5.6.6 0 0 0 0-.6c0-.2-.7-1.8-1-2.4s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.3 14.3 0 0 0 5.5 4.9 18.5 18.5 0 0 0 1.8.7 4.4 4.4 0 0 0 2 .1 3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.6-.4z"/></svg>
+  <span>Fale conosco</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
